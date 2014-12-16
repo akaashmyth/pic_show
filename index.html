@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml" dir="ltr" lang="zh-CN">
+<head>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="jquery-1.9.1min.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+	<link rel="stylesheet" type="text/css" href="base.css" />
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<title></title>
+</head>
+<body>
+<div class="new_project_apartment_box clearfix">
+	<div class="new_project_apartment_pic_show">
+		<div class="apartment_detail_pic_show">
+			<div class="pic_show_box_nav">
+				<a class="prev" href="javascript:;"></a>
+				<div class="s_nav">
+					<ul class="clearfix">
+						<li class="on">
+							<img src="img/1.jpg" data-img="img/1.jpg" />
+						</li>
+						<li>
+							<img src="img/2.jpg" data-img="img/2.jpg"/>
+						</li>
+						<li>
+							<img src="img/3.jpg" data-img="img/3.jpg"/>
+						</li>
+						<li>
+							<img src="img/4.jpg" data-img="img/4.jpg"/>
+						</li>
+						<li>
+							<img src="img/1.jpg" data-img="img/1.jpg" />
+						</li>
+						<li>
+							<img src="img/2.jpg" data-img="img/2.jpg"/>
+						</li>
+						<li>
+							<img src="img/3.jpg" data-img="img/3.jpg"/>
+						</li>
+						<li>
+							<img src="img/4.jpg" data-img="img/4.jpg"/>
+						</li>
+						<li>
+							<img src="img/1.jpg" data-img="img/1.jpg" />
+						</li>
+						<li>
+							<img src="img/2.jpg" data-img="img/2.jpg"/>
+						</li>
+						<li>
+							<img src="img/3.jpg" data-img="img/3.jpg"/>
+						</li>
+						<li>
+							<img src="img/4.jpg" data-img="img/4.jpg"/>
+						</li>
+					</ul>
+				</div>
+				<a class="next" href="javascript:;"></a>
+			</div>
+			<div class="pic_show_box">
+				<img src="img/1.jpg" />
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function (){
+		$(".apartment_detail_pic_show").picShow({
+			removing: 732,
+			picBoxShow: true
+		});
+	})
+</script>
+</body>
+</html>

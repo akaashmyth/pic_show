@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*
+* CSS Document *
+* 代码制作人：akaash
+* 制作时间：2013.11.12
+* 联系方式：14965818@qq.com
+* 涉及区域：所有产品线的共用样式文件
+* 备注：
+*/
+/*
+* @reset
+* YUI 3.8.0 (build 5744)
+* Copyright 2012 Yahoo! Inc. All rights reserved.  
+* Licensed under the BSD License.
+* http://yuilibrary.com/license/
+*/
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,a {margin:0;padding:0;font-size:100%;}table{border-collapse:collapse;border-spacing:0;}fieldset,img {border:0;}address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}ol,ul,li,dl,dt,dd{list-style:none;}caption,th {text-align:left;}h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}q:before,q:after {content:'';}abbr,acronym {border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select {*font-size:100%;}legend{display:none;border:0;}
+body{font-family:"Microsoft YaHei","微软雅黑","Hiragino Sans GB",tahoma,arial,simhei;font-size:12px;font-weight:normal;line-height:1.5;}
+				
+input{outline:none;}
+table{border-collapse:collapse;}
+input,textarea{outline:none;}
+a{text-decoration:none;color:#3366bb;}
+a:focus{outline:none;-moz-outline:none;}
+.clearfix:after{display:block;clear:both;visibility:hidden;height:0;content:" ";font-size:0;}
+.clearfix{*zoom:1;}
+/*-----@网格宽度-----*/
+.grid960{width:960px;height:auto;margin:auto;}
+.grid1000{width:1000px;height:auto;margin:auto;}
+/*-----@颜色样式-----*/
+.c_succ{color:blue;}
+.c_error{color:red;}
+.c_999{color:#999999;}
+.c_3366bb{color:#3366bb;}
+/*-----@文字样式-----*/
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.lh12{line-height:12px;}
+.lh14{line-height:14px;}
+.lh16{line-height:16px;}
+.lh18{line-height:18px;}
+.lh20{line-height:20px;}
+.lh50{line-height:50px;}
+.fb{font-weight:bold;}
+.fn{font-weight:normal;}
+.t2{text-indent:2em;}
+.unl{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+/*-----@box模型-----*/
+.block{display:block;}
+.none{display:none;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.ps{position:static;}
+.fl{float:left;_display:inline;}
+.fr{float:right;_display:inline;}
